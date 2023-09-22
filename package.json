@@ -1,0 +1,19 @@
+{
+  "name": "my-twitter",
+  "version": "1.0.0",
+  "description": "Personal project that recreates Twitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marifribeiro/my-twitter.git"
+  },
+  "author": "Mariana Ribeiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marifribeiro/my-twitter/issues"
+  },
+  "homepage": "https://github.com/marifribeiro/my-twitter#readme"
+}
