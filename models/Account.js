@@ -1,10 +1,10 @@
-const { DataTypes } = require('sequelize');
+const { DataTypes } = require("sequelize");
 
-const db = require('../db/conn');
+const db = require("../db/conn");
 
-const User = require('./User');
+const User = require("./User");
 
-const Account = db.define('Account', {
+const Account = db.define("Account", {
 	id: {
 		type: DataTypes.UUID,
 		allowNull: false,
@@ -23,4 +23,4 @@ const Account = db.define('Account', {
 Account.belongsTo(User);
 User.hasMany(Account);
 
-module.exports = Account
+module.exports = Account;

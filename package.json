@@ -4,7 +4,7 @@
   "description": "Personal project that recreates Twitter",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./index.js localhost 3000",
+    "start": "nodemon ./index.js localhost 5000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -35,6 +35,6 @@
     "eslint": "^8.52.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.29.0",
-    "eslint-plugin-n": "^16.2.0",
+    "eslint-plugin-n": "^16.2.0"
   }
 }
